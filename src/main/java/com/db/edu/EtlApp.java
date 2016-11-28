@@ -17,13 +17,21 @@ public class EtlApp {
     public static void main(String... args) {
         logger.debug("Entering main method with args {}", args);
 
+        Controller.transform(
+                RecordType.EIS1_DATA_FILE,
+                new int[] {1,2,3,4,5,45,100}
+                //new int[] {}      //test example for empty array
+        );
+
+        /*
+        //Variant 1
         for(RecordType currentType : RecordType.values()) {
 
             final String[] extractResult = Controller.extract(RecordType.EIS1_DATA_FILE);
             final String[] transformResult = Controller.transform(RecordType.EIS1_DATA_FILE, extractResult);
             Controller.load(transformResult);
 
-            //Inline variant
+            //Variant 2. Inline variant
             /*
             load(
                     transform(
@@ -34,6 +42,6 @@ public class EtlApp {
             */
 
 
-        }
+        //}
     }
 }
