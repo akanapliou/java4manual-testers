@@ -20,3 +20,49 @@
 2016-11-21 11:16:11,307 DEBUG [main] c.d.e.e.Controller [Controller.java:33] exit 
 2016-11-25 12:25:54,086 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args 1
 2016-11-25 12:26:18,909 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args 1
+2016-11-28 18:04:39,593 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:04:39,619 INFO [main] c.d.e.e.Controller [Controller.java:57] Average salary : {}
+2016-11-28 18:10:27,727 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:10:27,734 INFO [main] c.d.e.e.Controller [Controller.java:57] Average salary : 1
+2016-11-28 18:26:52,305 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:26:52,313 INFO [main] c.d.e.e.Controller [Controller.java:58] Average salary : 333
+2016-11-28 18:29:11,575 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:29:11,582 ERROR [main] c.d.e.e.Controller [Controller.java:54] Input array is empty!
+2016-11-28 18:29:11,582 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary : 0
+2016-11-28 18:31:35,006 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:31:35,013 ERROR [main] c.d.e.e.Controller [Controller.java:54] Input array is empty!
+2016-11-28 18:35:10,575 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:35:10,582 INFO [main] c.d.e.e.Controller [Controller.java:65] Average salary : 160
+2016-11-28 18:36:23,287 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:36:23,294 INFO [main] c.d.e.e.Controller [Controller.java:65] Average salary : 22.0
+2016-11-28 18:37:15,998 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:37:16,005 INFO [main] c.d.e.e.Controller [Controller.java:65] Average salary : 22.857142857142858
+2016-11-28 18:38:30,484 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:38:30,491 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary : 22.857142857142858
+2016-11-28 18:38:30,493 INFO [main] c.d.e.e.Controller [Controller.java:66] Average salary : 22.0
+2016-11-28 18:40:48,390 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:40:48,397 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary : 22.857142857142858
+2016-11-28 18:40:48,399 INFO [main] c.d.e.e.Controller [Controller.java:64] Average rounded salary : 23
+2016-11-28 18:52:26,190 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:52:26,198 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary : 22.857142857142858
+2016-11-28 18:52:26,201 INFO [main] c.d.e.e.Controller [Controller.java:63] Average rounded salary : 23
+2016-11-28 18:52:26,203 INFO [main] c.d.e.e.Controller [Controller.java:64] Average Salary is  22,86
+2016-11-28 18:53:23,697 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:53:23,706 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary : 22.857142857142858
+2016-11-28 18:53:23,708 INFO [main] c.d.e.e.Controller [Controller.java:63] Average rounded salary : 23
+2016-11-28 18:53:37,685 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:53:37,693 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary : 22.857142857142858
+2016-11-28 18:53:37,696 INFO [main] c.d.e.e.Controller [Controller.java:63] Average rounded salary : 23
+2016-11-28 18:53:37,699 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary is    22,86
+2016-11-28 18:55:01,630 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:55:01,637 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 22.857142857142858
+2016-11-28 18:55:01,640 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 23
+2016-11-28 18:55:01,643 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated):    22,86
+2016-11-28 18:55:22,807 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 18:55:22,815 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 22.857142857142858
+2016-11-28 18:55:22,817 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 23
+2016-11-28 18:55:22,819 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 22,86
+2016-11-28 19:02:46,645 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-11-28 19:02:46,653 INFO [main] c.d.e.e.Controller [Controller.java:61] Average salary            : 22.857142857142858
+2016-11-28 19:02:46,655 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary (rounded)  : 23
+2016-11-28 19:02:46,658 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (truncated): 22,86
