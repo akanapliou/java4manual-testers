@@ -3,8 +3,6 @@ package com.db.edu.etl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static java.lang.Math.round;
-
 
 public class Controller {
     private static final Logger logger = LoggerFactory.getLogger(Controller.class);
@@ -45,28 +43,6 @@ public class Controller {
     }
 
 
-    //Overloaded TRANSFORM method ((c) ivaserg and m-denisova)
-    public static int[] transform(RecordType recordType, int[] rawDataRecord) {
-        if (rawDataRecord.length == 0) {
-            logger.error("Input array is empty!");
-        }
-
-        int sum = 0;
-
-        for( int i : rawDataRecord) {
-            sum = sum + i;
-        }
-
-        double result = (double)sum / rawDataRecord.length;
-        logger.info("Average salary            : {}", result);
-        logger.info("Average salary (rounded)  : {}", round(result));
-        logger.info("Average salary (truncated): {}", String.format("%4.2f", result));
-
-        return rawDataRecord;
-    }
-
-
-
     /**
      * LOAD class is used for saving data to files of the certain format
      */
@@ -75,3 +51,5 @@ public class Controller {
     }
 
 }
+
+
