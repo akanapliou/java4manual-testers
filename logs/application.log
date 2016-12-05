@@ -70,3 +70,19 @@
 2016-11-28 19:09:47,532 INFO [main] c.d.e.e.Controller [Controller.java:61] Average salary            : 22.857142857142858
 2016-11-28 19:09:47,535 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary (rounded)  : 23
 2016-11-28 19:09:47,537 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (truncated): 22,86
+2016-12-02 11:07:45,951 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 2.0
+2016-12-02 11:07:45,967 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 2
+2016-12-02 11:07:45,967 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 2,00
+2016-12-02 11:08:33,424 DEBUG [main] c.d.e.EtlApp [EtlApp.java:18] Entering main method with args {}
+2016-12-02 11:08:33,439 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 2.0
+2016-12-02 11:08:33,439 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 2
+2016-12-02 11:08:33,439 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 2,00
+2016-12-02 11:10:04,335 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 2.0
+2016-12-02 11:10:04,335 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 2
+2016-12-02 11:10:04,335 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 2,00
+2016-12-05 09:15:06,287 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 2.0
+2016-12-05 09:15:06,303 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 2
+2016-12-05 09:15:06,303 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 2,00
+2016-12-05 09:15:37,724 INFO [main] c.d.e.e.Controller [Controller.java:62] Average salary            : 2.0
+2016-12-05 09:15:37,740 INFO [main] c.d.e.e.Controller [Controller.java:63] Average salary (rounded)  : 2
+2016-12-05 09:15:37,740 INFO [main] c.d.e.e.Controller [Controller.java:64] Average salary (truncated): 2,00

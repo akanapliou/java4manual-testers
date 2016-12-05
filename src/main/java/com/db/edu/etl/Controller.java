@@ -27,12 +27,14 @@ public class Controller {
      * @param rawDataRecord - array of extracted strings
      * @return array of strings - the parsed and converted array
      */
-    public static String[] transform(RecordType recordType, String[] rawDataRecord)   {
+    public static DTO transform(RecordType recordType, String[] rawDataRecord)   {
         switch (recordType) {
             case EIS1_DATA_FILE:
                 System.out.println("Using EIS1 algorithm");
                 //return rawDataRecord.split(",");
-                return new String[]{"Using EIS1 algorithm"};
+
+
+                //return new DTO();   //{"Using EIS1 algorithm"};
                 //break;
             case EIS2_DATA_FILE:
                 System.out.println("Using EIS2 algorithm");
@@ -47,7 +49,7 @@ public class Controller {
 
 
     //Overloaded TRANSFORM method
-    public static int[] transform(RecordType recordType, int[] rawDataRecord) {
+    public static DTO transform(RecordType recordType, int[] rawDataRecord) {
         if (rawDataRecord.length == 0) {
             logger.error("Input array is empty!");
         }
@@ -63,7 +65,11 @@ public class Controller {
         logger.info("Average salary (rounded)  : {}", round(average));
         logger.info("Average salary (truncated): {}", String.format("%4.2f", average));
 
-        return rawDataRecord;
+        //return rawDataRecord;
+        return new DTO(
+                rawDataRecord,
+                average
+        );
     }
 
     public static double getAverage() {
@@ -71,10 +77,13 @@ public class Controller {
     }
 
 
+
+
+
     /**
      * LOAD class is used for saving data to files of the certain format
      */
-    public static void load(String[] structureToSave) {
+    public static void load(DTO structureToSave) {
 
     }
 
