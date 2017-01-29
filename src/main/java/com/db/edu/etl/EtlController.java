@@ -13,8 +13,7 @@ public class EtlController {
     }
 
 
-    public void doEtl() {
-        EtlException etlException = null;
+    public void doEtl() throws EtlException {
         try {
             final User[] extractedUsers = extractor.extract();
             for (Loader loader : loaders) {
@@ -23,15 +22,15 @@ public class EtlController {
 
         } catch (RuntimeException e) {
             //e.printStackTrace();   //output to console, not used in Prod
-            etlException = new EtlException("Etl problem", e);
-            //throw new EtlException("Etl problem, don't panic!!!", e, 5);
-            throw etlException;
+            throw new EtlException("Etl problem, don't panic!!!", e, 5);
         } catch (Exception e) {
 
         } finally {
+            /*
             final RuntimeException runtimeException = new RuntimeException("3");
             if (etlException != null) runtimeException.addSuppressed(etlException);
             throw runtimeException;
+            */
         }
     }
 }
